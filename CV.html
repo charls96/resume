@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            -webkit-print-color-adjust: exact;
+            box-sizing: border-box;
+            color: #1e293b;
+        }
+
+        .resume {
+            margin: 45px;
+        }
+
+        .info {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .date {
+            font-size: 0.85rem;
+            font-style: italic;
+            color: #1e293b;
+            margin-bottom: 0.3rem;
+        }
+
+        p,
+        a,
+        ul {
+            font-size: 0.75rem;
+            margin: 0.2rem 0;
+            color: #475569;
+            line-height: 140%;
+        }
+
+        .info a {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1e293b;
+        }
+
+        h1 {
+            color: cornflowerblue;
+            margin: 0;
+            font-weight: bolder;
+        }
+
+        h1 span {
+            font-size: 130%;
+        }
+
+        h2 {
+            color: cornflowerblue;
+            font-size: 1.5rem;
+            margin: 0;
+            margin-bottom: 0.8rem;
+        }
+
+        h3 {
+            font-size: 0.9rem;
+            margin: 0;
+            margin-bottom: 0.4rem;
+        }
+
+        h3 span {
+            color: #475569;
+            font-style: italic;
+        }
+
+
+        h4 {
+            margin: 0;
+            font-weight: normal;
+            margin-bottom: 0.7rem;
+        }
+
+        ul {
+            list-style: symbols(fixed "\1F95D""\1F349""\1F353");
+            padding-left: 1rem;
+        }
+
+        .subheader {
+            margin: 1.2rem 0rem;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section {
+            width: 70%;
+        }
+
+        .side-section {
+            width: 27%;
+        }
+
+        .side-section div {
+            margin-bottom: 0.7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume">
+        <h1><span>C</span>arlos <span>D</span>aniel <span>L</span>opez <span>P</span>erez</h1>
+        <div class="subheader">
+            <h4>Desarrollador Junior Front-End/Full-Stack</h4>
+            <div class="info">
+                <a href="mailto:charly.lopez.perez@gmail.com">
+                    <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <title>Mail</title>
+                        <rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" d="M112 160l144 112 144-112" />
+                    </svg>charly.lopez.perez@gmail.com</a>
+                <a href="https://www.linkedin.com/in/carlos-daniel-lopez-perez/">
+                    <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <title>Logo Linkedin</title>
+                        <path fill="#475569"
+                            d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" />
+                    </svg>in/carlos-daniel-lopez-perez</a>
+                <a href="https://www.carlosdaniel.xyz/">
+                    <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <title>Globe</title>
+                        <path
+                            d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
+                            fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                        <path
+                            d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
+                            fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                        <path
+                            d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" />
+                        <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"
+                            d="M256 48v416M464 256H48" />
+                    </svg>
+                    carlosdaniel.xyz</a>
+                <a href="https://github.com/charls96">
+                    <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <title>Logo Github</title>
+                        <path fill="#475569"
+                            d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" />
+                    </svg>github.com/charls96</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>Experiencia Profesional</h2>
+                <div>
+                    <h3>Prácticas Desarrollador Full-Stack <span>@ NTTDATA [B2B]</span></h3>
+                    <p class="date">Mar 2022 - Jun 2022 // Murcia, España</p>
+                    <ul>
+                        <li> Prácticas de Angular y Java mediante la realización de diversos
+                            proyectos supervisados, en los cuales hemos utilizado Jenkins,
+                            Springboot, Ionic, Postman, Bootstrap y Angular Material.</li>
+                    </ul>
+                </div>
+                <h2 style="margin-top: 1rem;">Proyectos destacables</h2>
+                <div>
+                    <h3>Autocars Servicemur <span>@ Compraventa de coches Web App</span></h3>
+                    <p class="date">Next Js, Strapi, Tailwind CSS, MongoDB, Heroku, Vercel</p>
+                    <ul>
+                        <li>Proyecto real para un cliente que necesita que mostrar todos sus coches en un mismo sitio.</li>
+                        <li>Front-End con Next Js y Tailiwnd CSS para los estilos, dada su simplicidad para poder crear el routing dinámico de las páginas y hacer el fetch de la API que me da Strapi, asi como el getServerSideProps que he utilizado para coger la información del carrusel del home.</li>
+                        <li>Back-End con Strapi un headless cms, en el cual he creado colecciones de objetos Json para las características de los coches, como el hecho de que puedan estar en oferta y tener un descuento, estos se insertan en una base de datos MongoDB.</li>
+                    </ul>
+                    <a style="display: flex; align-items: center; gap: 0.3rem;"
+                        href="https://autocarsservicemur-git-main-autocarservicemur-protonmailc.vercel.app/">autocarservicemur<svg
+                            width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                            viewBox="0 0 512 512">
+                            <title>Open</title>
+                            <path
+                                d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"
+                                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="32" />
+                        </svg></a>
+                </div>
+                <div>
+                    <h3>Plugin Whatsapp <span>@ +300 descargas en NPM</span></h3>
+                    <p class="date">Javascript, CSS</p>
+                    <ul>
+                        <li>It recreates a Whatsapp chat that redirects to your real Whatsapp.</li>
+                        <li>I made it customizable via a javascript object where you can change its position, all the
+                            texts, the profile picture and phone.</li>
+                        <li>I have tested it in React Js, Next Js and vanilla Javascript.</li>
+                    </ul>
+                </div>
+                <a style="display: flex; align-items: center; gap: 0.3rem;"
+                    href="https://www.npmjs.com/package/vanilla-whatsapp">npmjs.com/package/vanilla-whatsapp<svg
+                        width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512">
+                        <title>Open</title>
+                        <path
+                            d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" />
+                    </svg></a>
+                <div>
+                    <h2 style="margin-top: 1rem;">Worth Mentioning</h2>
+                    <div>
+                        <ul>
+                            <li>Trabajando con un amigo Senior en Angular Js desarrolando un e-commerce web app con Node Js, Angular Js, SASS y MongoDB</li>
+                            <ul>
+                                <li>Una característica que he impletado es un servicio que llama a diferentes métodos de la clase Utils para coger un zip de una URL de nuestro proveedor con los datos de los productos, descomprimir el zip, manejar las excepciones del CSV, pasarlo a JSON y despues cada producto hacer una instancia de la clase Product que implemente a su vez una interfaz e insertar cada producto en la base de datos.</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="margin-top: 1rem;">Languages</h2>
+                    <div>
+                        <p>
+                            <span style="font-weight: bold">Spanish:</span> Native
+                        </p>
+                        <p>
+                            <span style="font-weight: bold">English:</span> ~ Advanced
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="margin-top: 1rem;">Driving Licenses</h2>
+                    <div style="display: flex; gap: 1rem;">
+                        <p style="display: flex; align-items: center; gap: 0.3rem; font-size: 1rem;">
+                            <svg width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                viewBox="0 0 512 512">
+                                <title>Car Sport</title>
+                                <path
+                                    d="M469.71 234.6c-7.33-9.73-34.56-16.43-46.08-33.94s-20.95-55.43-50.27-70S288 112 256 112s-88 4-117.36 18.63-38.75 52.52-50.27 70-38.75 24.24-46.08 33.97S29.8 305.84 32.94 336s9 48 9 48h86c14.08 0 18.66-5.29 47.46-8 31.6-3 62.6-4 80.6-4s50 1 81.58 4c28.8 2.73 33.53 8 47.46 8h85s5.86-17.84 9-48-2.04-91.67-9.33-101.4zM400 384h56v16h-56zM56 384h56v16H56z"
+                                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32" />
+                                <path
+                                    d="M364.47 309.16c-5.91-6.83-25.17-12.53-50.67-16.35S279 288 256.2 288s-33.17 1.64-57.61 4.81-42.79 8.81-50.66 16.35C136.12 320.6 153.42 333.44 167 335c13.16 1.5 39.47.95 89.31.95s76.15.55 89.31-.95c13.56-1.65 29.62-13.6 18.85-25.84zM431.57 243.05a3.23 3.23 0 00-3.1-3c-11.81-.42-23.8.42-45.07 6.69a93.88 93.88 0 00-30.08 15.06c-2.28 1.78-1.47 6.59 1.39 7.1a455.32 455.32 0 0052.82 3.1c10.59 0 21.52-3 23.55-12.44a52.41 52.41 0 00.49-16.51zM80.43 243.05a3.23 3.23 0 013.1-3c11.81-.42 23.8.42 45.07 6.69a93.88 93.88 0 0130.08 15.06c2.28 1.78 1.47 6.59-1.39 7.1a455.32 455.32 0 01-52.82 3.1c-10.59 0-21.52-3-23.55-12.44a52.41 52.41 0 01-.49-16.51z" />
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32" d="M432 192h16M64 192h16M78 211s46.35-12 178-12 178 12 178 12" />
+                            </svg> B
+                        </p>
+                        <p style="display: flex; align-items: center; gap: 0.3rem; font-size: 1rem;">
+                            <svg width="1.2rem" height="1.2rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                viewBox="0 0 512 512">
+                                <title>Bicycle</title>
+                                <path
+                                    d="M388 288a76 76 0 1076 76 76.24 76.24 0 00-76-76zM124 288a76 76 0 1076 76 76.24 76.24 0 00-76-76z"
+                                    fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32" d="M256 360v-86l-64-42 80-88 40 72h56" />
+                                <path d="M320 136a31.89 31.89 0 0032-32.1A31.55 31.55 0 00320.2 72a32 32 0 10-.2 64z" />
+                            </svg>
+                            A2
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="side-section">
+                <div>
+                    <p><span style="font-weight: bold">Date of Birth:</span> 12 Jan 1996</p>
+                    <p><span style="font-weight: bold">Nationality:</span> Spanish</p>
+                    <p><span style="font-weight: bold">Gender:</span> Male</p>
+                </div>
+                <h2>Skills</h2>
+                <div>
+                    <h3>Programming Languages</h3>
+                    <p>JavaScript, Typescript, HTML, CSS, PHP, Java.</p>
+                </div>
+                <div>
+                    <h3>Libraries & Frameworks</h3>
+                    <p>React Js, Next Js, Angular Js, Alpine Js, Laravel, Tailwind CSS.</p>
+                </div>
+                <div>
+                    <h3>Tools & Platforms</h3>
+                    <p>Docker, Git, Wordpress, MongoDB, MySQL.</p>
+                </div>
+                <h2>Education</h2>
+                <div>
+                    <h3>IES Ingeniero De La Cierva</h3>
+                    <p class="date">2020 - 2022 // Murcia, Spain</p>
+                    <p>2 years Vocational Training in Web Development.</p>
+                    <p>Final Degree Project we developed an employee
+                        exchange web app for the Highschool between six classmates built
+                        with Laravel 9, Alpine.js, Livewire, Tailwind, MySQL, Nginx and Docker.</p>
+                </div>
+                <h2>Awards</h2>
+                <div>
+                    <h3>Informatics Olympics</h3>
+                    <p class="date">Murcia 2012</p>
+                    <p>First place in Murcia, Spain at projects modality. We built a website with PHP where you can play
+                        a game online between a friend and I.</p>
+                </div>
+                <h2>Interests</h2>
+                <div>
+                    <p>
+                        Computers in general, Cooking, Technology, Swimming, Gym, Astronomy,Tennis, Guitar, Chess,
+                        Traveling.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
