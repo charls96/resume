@@ -30,8 +30,16 @@
         .date {
             font-size: 0.85rem;
             font-style: italic;
+            font-weight: 600;
             color: #1e293b;
             margin-bottom: 0.3rem;
+        }
+
+        .stack {
+            font-size: 0.75rem;
+            font-style: italic;
+            font-weight: 500;
+            color: #475569;
         }
 
         p,
@@ -46,7 +54,7 @@
         .info a {
             display: flex;
             align-items: center;
-            gap: 0.3rem;
+            gap: 0.20rem;
         }
 
         a {
@@ -90,7 +98,7 @@
         }
 
         ul {
-            list-style: symbols(fixed "\1F95D""\1F349""\1F353");
+            list-style: symbols(fixed "\1F95D" "\1F349" "\1F353");
             padding-left: 1rem;
         }
 
@@ -121,9 +129,9 @@
     <div class="resume">
         <h1><span>C</span>arlos <span>D</span>aniel <span>L</span>opez <span>P</span>erez</h1>
         <div class="subheader">
-            <h4>Junior Front-End/Full-Stack Developer</h4>
+            <h4>Junior Full-Stack/Front-End Developer</h4>
             <div class="info">
-                <a href="mailto:charly.lopez.perez@gmail.com">
+                <a target="_blank" href="mailto:charly.lopez.perez@gmail.com">
                     <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
                         viewBox="0 0 512 512">
                         <title>Mail</title>
@@ -132,14 +140,14 @@
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="32" d="M112 160l144 112 144-112" />
                     </svg>charly.lopez.perez@gmail.com</a>
-                <a href="https://www.linkedin.com/in/carlos-daniel-lopez-perez/">
+                <a target="_blank" href="https://www.linkedin.com/in/carlos-daniel-lopez-perez/">
                     <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
                         viewBox="0 0 512 512">
                         <title>Logo Linkedin</title>
                         <path fill="#475569"
                             d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" />
                     </svg>in/carlos-daniel-lopez-perez</a>
-                <a href="https://www.carlosdaniel.xyz/">
+                <a target="_blank" href="https://www.carlosdaniel.xyz/">
                     <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
                         viewBox="0 0 512 512">
                         <title>Globe</title>
@@ -157,7 +165,7 @@
                             d="M256 48v416M464 256H48" />
                     </svg>
                     carlosdaniel.xyz</a>
-                <a href="https://github.com/charls96">
+                <a target="_blank" href="https://github.com/charls96">
                     <svg width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
                         viewBox="0 0 512 512">
                         <title>Logo Github</title>
@@ -170,34 +178,48 @@
             <div class="section">
                 <h2>Professional Experience</h2>
                 <div>
-                    <h3>Internship Full-Stack Developer <span>@ NTTDATA</span></h3>
-                    <p class="date">Mar 2022 - Jun 2022 // Murcia, Spain</p>
-                    <ul>
-                        <li> Internship developing different supervised projects built with Angular,
-                            Java, Jenkins, SpringBoot, Ionic, Postman, Bootstrap and Angular
-                            Material.</li>
-                    </ul>
+                    <div>
+                        <h3>R&D Junior Full-Stack Developer <span>@ Efficy CRM</span></h3>
+                        <p class="date">Sep 2022 - Present // Murcia, Spain - Brussels, Belgium - Remote work</p>
+                        <p class="stack">Vue Ts, Typescript, Pinia, Bootstrap Vue, Vite, Kotlin, Ktor, SQL</p>
+                        <ul>
+                            <li>
+                                We are more than 30 developers from different countries working in small teams
+                                interconnected, developing a new CRM.
+                                Our main language at work is English.
+                            </li>
+                            <li>
+                                My work consists of implementing new features and maintaining and improving code.
+                                I have been working on a new endpoint for saving custom layouts and displaying them
+                                 in a drop-down menu, making it possible for the customer to create a web from a template
+                                 for managing different things involved with their company.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Internship Full-Stack Developer <span>@ NTTDATA</span></h3>
+                        <p class="date">Mar 2022 - Jun 2022 // Murcia, Spain</p>
+                        <ul>
+                            <li> Internship developing different supervised projects built with Angular,
+                                Java, Jenkins, SpringBoot, Ionic, Postman, Bootstrap and Angular
+                                Material.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="margin-top: 1rem;">Education</h2>
+                    <div>
+                        <h3>IES Ingeniero De La Cierva</h3>
+                        <p class="date">2020 - 2022 // Murcia, Spain</p>
+                        <ul>
+                            <li>2 years Vocational Training in Web Development.</li>
+                            <li>Final Degree Project we developed an employee
+                                exchange web app for the Highschool between six classmates built
+                                with Laravel 9, Alpine.js, Livewire, Tailwind, MySQL, Nginx and Docker.</li>
+                        </ul>
+                    </div>
                 </div>
                 <h2 style="margin-top: 1rem;">Interesting Projects</h2>
-                <div>
-                    <h3>Autocars Servicemur <span>@ Dealer Cars Web App</span></h3>
-                    <p class="date">Next Js, Strapi, Tailwind CSS, MongoDB, Heroku, Vercel</p>
-                    <ul>
-                        <li>Web App built for a customer to have all his cars in the same place.</li>
-                        <li>Front-End with Next Js, for the dynamic routing, fetching data from the API of Strapi with server-side props for the home carousel or usual fetching.</li>
-                        <li>Back-End with Strapi headless CMS where I have created different collections of JSON Objects for the features of the cars, like being able to have a discount or feature a vehicle, all of these with a MongoDB database.</li>
-                    </ul>
-                    <a style="display: flex; align-items: center; gap: 0.3rem;"
-                        href="https://autocarsservicemur-git-main-autocarservicemur-protonmailc.vercel.app/">autocarservicemur<svg
-                            width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
-                            viewBox="0 0 512 512">
-                            <title>Open</title>
-                            <path
-                                d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"
-                                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="32" />
-                        </svg></a>
-                </div>
                 <div>
                     <h3>Plugin Whatsapp <span>@ +300 downloads in NPM</span></h3>
                     <p class="date">Javascript, CSS</p>
@@ -208,7 +230,7 @@
                         <li>I have tested it in React Js, Next Js and vanilla Javascript.</li>
                     </ul>
                 </div>
-                <a style="display: flex; align-items: center; gap: 0.3rem;"
+                <a target="_blank" style="display: flex; align-items: center; gap: 0.3rem;"
                     href="https://www.npmjs.com/package/vanilla-whatsapp">npmjs.com/package/vanilla-whatsapp<svg
                         width="1rem" height="1rem" xmlns="http://www.w3.org/2000/svg" class="ionicon"
                         viewBox="0 0 512 512">
@@ -218,28 +240,6 @@
                             fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="32" />
                     </svg></a>
-                <div>
-                    <h2 style="margin-top: 1rem;">Worth Mentioning</h2>
-                    <div>
-                        <ul>
-                            <li>I am working with a friend Senior in Angular, developing an e-commerce app with Node Js, Angular Js, SASS and MongoDB.</li>
-                            <ul>
-                                <li> One of the features I did was about making a service that calls different methods in a Utils class for getting the zip of all the products of our supplier, unzipping it, handling all the exceptions of the CSV with all the products, parsing it to JSON, create an instance of the product class that implements an interface to ensure everything is right and then insert them in the MongoDB database.</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <h2 style="margin-top: 1rem;">Languages</h2>
-                    <div>
-                        <p>
-                            <span style="font-weight: bold">Spanish:</span> Native
-                        </p>
-                        <p>
-                            <span style="font-weight: bold">English:</span> ~ Advanced
-                        </p>
-                    </div>
-                </div>
                 <div>
                     <h2 style="margin-top: 1rem;">Driving Licenses</h2>
                     <div style="display: flex; gap: 1rem;">
@@ -278,36 +278,37 @@
                 <div>
                     <p><span style="font-weight: bold">Date of Birth:</span> 12 Jan 1996</p>
                     <p><span style="font-weight: bold">Nationality:</span> Spanish</p>
-                    <p><span style="font-weight: bold">Gender:</span> Male</p>
                 </div>
                 <h2>Skills</h2>
                 <div>
                     <h3>Programming Languages</h3>
-                    <p>JavaScript, Typescript, HTML, CSS, PHP, Java.</p>
+                    <p>JavaScript, Typescript, HTML, CSS, Kotlin, PHP, Java.</p>
                 </div>
                 <div>
                     <h3>Libraries & Frameworks</h3>
-                    <p>React Js, Next Js, Angular Js, Alpine Js, Laravel, Tailwind CSS.</p>
+                    <p>Vue, React Js, Next Js, Angular Js, Alpine Js, Ktor, Laravel, Bootstrap, Tailwind CSS.</p>
                 </div>
                 <div>
                     <h3>Tools & Platforms</h3>
-                    <p>Docker, Git, Wordpress, MongoDB, MySQL.</p>
+                    <p>Docker, Git, Wordpress, MongoDB, SQL (Microsoft SQL Server, MySQL,
+                        PostgreSQL).
+                    </p>
                 </div>
-                <h2>Education</h2>
+                <h2>Languages</h2>
                 <div>
-                    <h3>IES Ingeniero De La Cierva</h3>
-                    <p class="date">2020 - 2022 // Murcia, Spain</p>
-                    <p>2 years Vocational Training in Web Development.</p>
-                    <p>Final Degree Project we developed an employee
-                        exchange web app for the Highschool between six classmates built
-                        with Laravel 9, Alpine.js, Livewire, Tailwind, MySQL, Nginx and Docker.</p>
+                    <p>
+                        <span style="font-weight: bold">Spanish:</span> Native
+                    </p>
+                    <p>
+                        <span style="font-weight: bold">English:</span> ~ Advanced
+                    </p>
                 </div>
                 <h2>Awards</h2>
                 <div>
                     <h3>Informatics Olympics</h3>
                     <p class="date">Murcia 2012</p>
                     <p>First place in Murcia, Spain at projects modality. We built a website with PHP where you can play
-                        a game online between a friend and I.</p>
+                        a game online.</p>
                 </div>
                 <h2>Interests</h2>
                 <div>
